@@ -1,13 +1,13 @@
 {
-  "name": "tiendamovistar",
+  "name": "orangecypress10",
   "version": "1.0.0",
-  "description": "Test tienda",
+  "description": "Test orange",
   "main": "index.js",
   "scripts": {
     "test": "cypress run --spec cypress/e2e/pruebas-orange.cy.js --browser chrome"
   },
   "keywords": [
-    "tienda",
+    "orange",
     "tests"
   ],
   "author": "Joaquin",
