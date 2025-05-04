@@ -1,5 +1,5 @@
 {
-  "name": "paginapersonal",
+  "name": "tiendamovistar",
   "version": "1.0.0",
   "description": "Test tienda",
   "main": "index.js",
@@ -7,7 +7,7 @@
     "test": "cypress run --spec cypress/e2e/pruebas-orange.cy.js --browser chrome"
   },
   "keywords": [
-    "orange",
+    "tienda",
     "tests"
   ],
   "author": "Joaquin",
