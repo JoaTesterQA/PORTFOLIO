@@ -1,13 +1,13 @@
 {
-  "name": "paginalibros",
+  "name": "paginapersonal",
   "version": "1.0.0",
-  "description": "Test libros",
+  "description": "Test tienda",
   "main": "index.js",
   "scripts": {
     "test": "cypress run --spec cypress/e2e/pruebas-orange.cy.js --browser chrome"
   },
   "keywords": [
-    "libros",
+    "orange",
     "tests"
   ],
   "author": "Joaquin",
