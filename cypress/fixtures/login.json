@@ -1,0 +1,11 @@
+{
+    "loginButton": ".mat-mdc-tooltip-trigger.ng-star-inserted > .mdc-button__label",
+    "signUp": ":nth-child(2) > .mdc-button > .mdc-button__label",
+    "name": "#mat-input-2",
+    "lastName": "#mat-input-3",
+    "user": "#mat-input-4",
+    "password": "#mat-input-5",
+    "repetPassword": "mat-label.ng-tns-c508571215-7",
+    "gender": "#mat-radio-0-input",
+    "confirm": ".mat-mdc-card-actions > .mdc-button > .mdc-button__label" 
+}
