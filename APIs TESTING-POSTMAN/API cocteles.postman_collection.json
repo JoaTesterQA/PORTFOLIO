@@ -1,0 +1,139 @@
+{
+	"info": {
+		"_postman_id": "795096f6-5266-4279-8fc9-14acee08cb04",
+		"name": "API cocteles",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "32553245"
+	},
+	"item": [
+		{
+			"name": "Variable/Colección",
+			"item": [
+				{
+					"name": "Cocteles por nombre (variable colección)",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "www.thecocktaildb.com/api/json/v1/1/search.php?s={{coctel}}",
+							"host": [
+								"www",
+								"thecocktaildb",
+								"com"
+							],
+							"path": [
+								"api",
+								"json",
+								"v1",
+								"1",
+								"search.php"
+							],
+							"query": [
+								{
+									"key": "s",
+									"value": "{{coctel}}"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Variable/Ambiente",
+			"item": [
+				{
+					"name": "Buscar ingredientes por nombre (variables ambiente)",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{url}}/api/json/v1/1/search.php?i={{ingrediente}}",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"api",
+								"json",
+								"v1",
+								"1",
+								"search.php"
+							],
+							"query": [
+								{
+									"key": "i",
+									"value": "{{ingrediente}}"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Variable/Global",
+			"item": [
+				{
+					"name": "Buscar ingredientes por letra(variables globales)",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "www.thecocktaildb.com/api/json/v1/1/search.php?f={{letra-coctel}}",
+							"host": [
+								"www",
+								"thecocktaildb",
+								"com"
+							],
+							"path": [
+								"api",
+								"json",
+								"v1",
+								"1",
+								"search.php"
+							],
+							"query": [
+								{
+									"key": "f",
+									"value": "{{letra-coctel}}"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"packages": {},
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"packages": {},
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "coctel",
+			"value": "",
+			"type": "string"
+		}
+	]
+}

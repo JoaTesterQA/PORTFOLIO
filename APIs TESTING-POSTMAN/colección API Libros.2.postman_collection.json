@@ -1,0 +1,45 @@
+{
+	"info": {
+		"_postman_id": "47748c9b-47ea-4062-900c-6a2ac5bfc8c1",
+		"name": "colección API Libros.2",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "32553245"
+	},
+	"item": [
+		{
+			"name": "Consulta libros",
+			"item": [
+				{
+					"name": "Consultar libro x ISBN",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Traer Libros",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://bookstore.demoqa.com/BookStore/v1/Books\n\n",
+					"protocol": "https",
+					"host": [
+						"bookstore",
+						"demoqa",
+						"com"
+					],
+					"path": [
+						"BookStore",
+						"v1",
+						"Books\n\n"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
